@@ -1,0 +1,67 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Caffee.Views.LoginPage"
+             xmlns:vm="clr-namespace:Caffee.ViewModels"
+             Title="Hot Drinks">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$2.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Cafe Americano" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$3.00" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Cafe Latte" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$3.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Cappucino" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$0.75" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Single Shot" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$3.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Cloud Mocchiato" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+                <Frame BorderColor="Black">
+                    <Grid>
+                        <Label Text="$4.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                        <Label Text="Dolce Latte" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+
+                    </Grid>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

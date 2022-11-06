@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Caffee.Views.RealAboutPage"
+             xmlns:vm="clr-namespace:Caffee.ViewModels"
+             Title="About Page">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Frame>
+                    <Image Source="https://blog-assets.lightspeedhq.com/img/2021/03/b26bcdcf-blog_coffee-shop-equipment-list_1200x628.jpg"/>
+                </Frame>
+                <Label Text="Jules Cafe" FontSize="36" TextColor="Black"></Label>
+                <Label Text="4A Kent Street" FontSize="16" TextColor="Black"></Label>
+                <Label Text="Newmarket" FontSize="16" TextColor="Black"></Label>
+                <Label Text="Auckland" FontSize="16" TextColor="Black"></Label>
+                <Label Text="1023" FontSize="16" TextColor="Black"></Label>
+                <Label Margin="0,10,0,0" Text="+64 9 444 55555" FontSize="16" TextColor="Black"></Label>
+                <Label Margin="0,10,0,0" Text="info@julescafe.co.nz" FontSize="16" TextColor="Black"></Label>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

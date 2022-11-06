@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Caffee.Views.NewItemPage"
+             Title="New Item"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <ScrollView Grid.Row="1">
+                <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                    <Frame BorderColor="Black">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Column="1" Text="$1.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                            <Label Grid.Column="1" Text="Bagel" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            <Label Grid.Column="1" Grid.Row="1" Text="Freshly Baked Each Morning" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            <Image Grid.Column="0" Source="https://1.bp.blogspot.com/-yEYwzq4AnFA/YDupg24HZXI/AAAAAAAAJU0/T5_FlhvztMILpvfRsP9hqBjKoZEOkxklgCLcBGAsYHQ/s1000/PNGKH_0000316.png"/>
+                        </Grid>
+                    </Frame>
+
+                    <Frame BorderColor="Black">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Column="1" Text="$6.50" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                            <Label Grid.Column="1" Text="Eggs Benedict" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            <Label Grid.Column="1" Grid.Row="1" Text="Pouched Eggs Over Bacon And Buttered Toasted English Muffin, Tapped With Hallandaise Sauce" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
+                            <Image Grid.Column="0" Source="https://1.bp.blogspot.com/-yEYwzq4AnFA/YDupg24HZXI/AAAAAAAAJU0/T5_FlhvztMILpvfRsP9hqBjKoZEOkxklgCLcBGAsYHQ/s1000/PNGKH_0000316.png"/>
+                        </Grid>
+                    </Frame>
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+    
+</ContentPage>
+    

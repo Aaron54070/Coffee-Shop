@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HklIiTjH9elW+tqyENoNKkX48Z0BuqCB0oHj/jafATj1Rlo+J0JVKXiSlpZsh85uBte8K2G0Bp4eL6Pe8Xd7FQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aaron\\source\\repos\\Caffee\\Caffee\\Caffee\\Caffee.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aaron\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2515\\xamarin.forms.maps.5.0.0.2515.nupkg.sha512"
+  ],
+  "logs": []
+}

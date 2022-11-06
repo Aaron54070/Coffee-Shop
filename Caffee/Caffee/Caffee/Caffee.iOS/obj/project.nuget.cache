@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PzdSVIXu2jc+jsc4U6uCXIcr3tnvkuxENEMO6Nbk6xLbP9TdWlnHRFIORSH/sbrK4316L9y6xyfOPJr1XZTBTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aaron\\source\\repos\\Caffee\\Caffee\\Caffee.iOS\\Caffee.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aaron\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2515\\xamarin.forms.maps.5.0.0.2515.nupkg.sha512"
+  ],
+  "logs": []
+}
